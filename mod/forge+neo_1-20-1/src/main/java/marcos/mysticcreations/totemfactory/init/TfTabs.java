@@ -1,4 +1,4 @@
-package net.mysticcreations.totemfactory.init;
+package marcos.mysticcreations.totemfactory.init;
 
 import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.RegistryObject;
@@ -9,7 +9,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-import net.mysticcreations.totemfactory.TotemFactory;
+import marcos.mysticcreations.totemfactory.TotemFactory;
 
 public class TfTabs {
     public static final DeferredRegister<CreativeModeTab> REGISTER = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TotemFactory.MODID);

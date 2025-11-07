@@ -1,8 +1,8 @@
-package net.mysticcreations.totemfactory;
+package marcos.mysticcreations.totemfactory;
 
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.mysticcreations.totemfactory.init.TfItems;
-import net.mysticcreations.totemfactory.init.TfTabs;
+import marcos.mysticcreations.totemfactory.init.TfItems;
+import marcos.mysticcreations.totemfactory.init.TfTabs;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import net.minecraftforge.fml.common.Mod;

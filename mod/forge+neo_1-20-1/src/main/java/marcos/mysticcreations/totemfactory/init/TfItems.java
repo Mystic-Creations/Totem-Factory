@@ -1,19 +1,19 @@
-package net.mysticcreations.totemfactory.init;
+package marcos.mysticcreations.totemfactory.init;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.mysticcreations.totemfactory.TotemFactory;
-import net.mysticcreations.totemfactory.item.TotemHead;
-import net.mysticcreations.totemfactory.item.TotemHeadCasing;
-import net.mysticcreations.totemfactory.item.TotemBody;
-import net.mysticcreations.totemfactory.item.TotemBodyCasing;
-import net.mysticcreations.totemfactory.item.IncompleteTotemHead;
-import net.mysticcreations.totemfactory.item.IncompleteTotemHeadCasing;
-import net.mysticcreations.totemfactory.item.IncompleteTotemBody;
-import net.mysticcreations.totemfactory.item.IncompleteTotemBodyCasing;
-import net.mysticcreations.totemfactory.item.InactiveTotem;
+import marcos.mysticcreations.totemfactory.TotemFactory;
+import marcos.mysticcreations.totemfactory.item.TotemHead;
+import marcos.mysticcreations.totemfactory.item.TotemHeadCasing;
+import marcos.mysticcreations.totemfactory.item.TotemBody;
+import marcos.mysticcreations.totemfactory.item.TotemBodyCasing;
+import marcos.mysticcreations.totemfactory.item.IncompleteTotemHead;
+import marcos.mysticcreations.totemfactory.item.IncompleteTotemHeadCasing;
+import marcos.mysticcreations.totemfactory.item.IncompleteTotemBody;
+import marcos.mysticcreations.totemfactory.item.IncompleteTotemBodyCasing;
+import marcos.mysticcreations.totemfactory.item.InactiveTotem;
 
 public class TfItems {
     public static final DeferredRegister<Item> REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS, TotemFactory.MODID);
