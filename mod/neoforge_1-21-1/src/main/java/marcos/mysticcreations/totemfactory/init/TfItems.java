@@ -4,7 +4,7 @@ import marcos.mysticcreations.totemfactory.item.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import marcos.mysticcreations.totemfactory.TotemFactory;
-import net.mysticcreations.totemfactory.item.*;
+import marcos.mysticcreations.totemfactory.item.*;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 

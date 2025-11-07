@@ -1,15 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "totemfactory",
-  "version": "1.3-OG1.0m",
+  "version": "1.1",
   "name": "Create: Totem Factory",
   "description": "The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic.",
   "authors": [
-    "§7OG: MarcosJoestar & jargames99",
-    "§5PORT: Mystic Creations Team"
+    "MarcosJoestar, jargames99 & Mystic Creations Team"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/create-totem-factory-revived",
+    "homepage": "https://modrinth.com/mod/create-totem-factory",
     "sources": ""
   },
   "license": "MIT",
@@ -18,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.mysticcreations.totemfactory.TotemFactory"
+      "marcos.mysticcreations.totemfactory.TotemFactory"
     ]
   },
   "depends": {
