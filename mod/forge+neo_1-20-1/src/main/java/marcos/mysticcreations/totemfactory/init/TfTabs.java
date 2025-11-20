@@ -18,6 +18,9 @@ public class TfTabs {
             .title(Component.translatable("item_group." + TotemFactory.MODID + ".totem_factory"))
             .icon(() -> new ItemStack(Items.TOTEM_OF_UNDYING))
             .displayItems((parameters, tabData) -> {
+                tabData.accept(TfItems.TUMBAGA_ALLOY.get());
+                tabData.accept(TfItems.TUMBAGA_NUGGET.get());
+                tabData.accept(TfItems.TUMBAGA_SHEET.get());
                 tabData.accept(TfItems.INACTIVE_TOTEM.get());
                 tabData.accept(TfItems.TOTEM_HEAD.get());
                 tabData.accept(TfItems.TOTEM_BODY.get());

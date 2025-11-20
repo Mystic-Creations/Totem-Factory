@@ -11,6 +11,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class TfItems {
     public static final DeferredRegister<Item> REGISTER = DeferredRegister.create(Registries.ITEM, TotemFactory.MODID);
 
+    public static final DeferredHolder<Item, TumbagaAlloy> TUMBAGA_ALLOY = REGISTER.register("tumbaga_alloy", TumbagaAlloy::new);
+    public static final DeferredHolder<Item, TumbagaNugget> TUMBAGA_NUGGET = REGISTER.register("tumbaga_nugget", TumbagaNugget::new);
+    public static final DeferredHolder<Item, TumbagaSheet> TUMBAGA_SHEET = REGISTER.register("tumbaga_sheet", TumbagaSheet::new);
     public static final DeferredHolder<Item, TotemHead> TOTEM_HEAD = REGISTER.register("totem_head", TotemHead::new);
     public static final DeferredHolder<Item, IncompleteTotemHead> INCOMPLETE_TOTEM_HEAD = REGISTER.register("incomplete_totem_head", IncompleteTotemHead::new);
     public static final DeferredHolder<Item, TotemHeadCasing> TOTEM_HEAD_CASING = REGISTER.register("totem_head_casing", TotemHeadCasing::new);

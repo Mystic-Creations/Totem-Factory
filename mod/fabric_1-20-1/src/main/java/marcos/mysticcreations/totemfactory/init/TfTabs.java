@@ -1,5 +1,6 @@
-package net.mysticcreations.totemfactory.init;
+package marcos.mysticcreations.totemfactory.init;
 
+import marcos.mysticcreations.totemfactory.TotemFactory;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.world.item.ItemStack;
@@ -10,9 +11,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
-
 import net.minecraft.world.item.Items;
-import net.mysticcreations.totemfactory.TotemFactory;
 
 public class TfTabs {
 	public static final ResourceKey<CreativeModeTab> TAB_TOTEM_FACTORY =
@@ -26,7 +25,10 @@ public class TfTabs {
 				.build()
 		);
 		ItemGroupEvents.modifyEntriesEvent(TAB_TOTEM_FACTORY).register(tabData -> {
-			tabData.accept(TfItems.INACTIVE_TOTEM);
+            tabData.accept(TfItems.TUMBAGA_ALLOY);
+            tabData.accept(TfItems.TUMBAGA_NUGGET);
+            tabData.accept(TfItems.TUMBAGA_SHEET);
+            tabData.accept(TfItems.INACTIVE_TOTEM);
 			tabData.accept(TfItems.TOTEM_HEAD);
 			tabData.accept(TfItems.TOTEM_BODY);
 			tabData.accept(TfItems.TOTEM_HEAD_CASING);

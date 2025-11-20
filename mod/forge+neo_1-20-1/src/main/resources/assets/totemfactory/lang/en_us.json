@@ -8,5 +8,8 @@
   "item.totemfactory.inactive_totem": "Inactive Totem of Undying",
   "item.totemfactory.incomplete_totem_head": "Incomplete Totem of Undying Head",
   "item.totemfactory.incomplete_totem_body": "Incomplete Totem of Undying Body",
-  "item.totemfactory.incomplete_totem_body_casing": "Incomplete Totem of Undying Body Casing"
+  "item.totemfactory.incomplete_totem_body_casing": "Incomplete Totem of Undying Body Casing",
+  "item.totemfactory.tumbaga_alloy": "Tumbaga Alloy",
+  "item.totemfactory.tumbaga_nugget": "Tumbaga Nugget",
+  "item.totemfactory.tumbaga_sheet": "Tumbaga Sheet"
 }

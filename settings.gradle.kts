@@ -1,5 +1,5 @@
-file(".").listFiles {
+file("mod").listFiles {
   file -> file.isDirectory && (
     file.resolve("build.gradle").exists() || file.resolve("build.gradle.kts").exists()
   )
-}.forEach { includeBuild(it.name) }
+}.forEach { includeBuild("mod/${it.name}") }

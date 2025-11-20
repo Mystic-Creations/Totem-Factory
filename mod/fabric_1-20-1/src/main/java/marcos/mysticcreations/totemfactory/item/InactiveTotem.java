@@ -1,4 +1,4 @@
-package net.mysticcreations.totemfactory.item;
+package marcos.mysticcreations.totemfactory.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
