@@ -26,11 +26,4 @@ versionRange="*"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.totemfactory]]
-modId="create_enchantment_industry"
-mandatory=true
-versionRange="*"
-ordering="NONE"
-side="BOTH"
-
 

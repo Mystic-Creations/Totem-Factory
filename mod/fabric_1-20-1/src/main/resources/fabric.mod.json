@@ -25,7 +25,6 @@
     "fabric": "*",
     "minecraft": "1.20.1",
     "create": "*",
-    "create_enchantment_industry": "*",
     "java": ">=17"
   }
 }
