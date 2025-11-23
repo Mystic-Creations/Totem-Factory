@@ -23,5 +23,15 @@
   "item.totemfactory.tumbaga_helmet": "Tumbaga Helmet",
   "item.totemfactory.tumbaga_chestplate": "Tumbaga Chestplate",
   "item.totemfactory.tumbaga_leggings": "Tumbaga Leggings",
-  "item.totemfactory.tumbaga_boots": "Tumbaga Boots"
+  "item.totemfactory.tumbaga_boots": "Tumbaga Boots",
+  "advancement.totemfactory.ancient_alloying.title": "Ancient Alloying",
+  "advancement.totemfactory.ancient_alloying.descr": "Obtain some Tumbaga Alloy",
+  "advancement.totemfactory.engineering.title": "Engineering Laughs in the Face of Death",
+  "advancement.totemfactory.engineering.descr": "Create your first totem",
+  "advancement.totemfactory.totem_factory.title": "Totem Factory",
+  "advancement.totemfactory.totem_factory.descr": "Create 1000 totems",
+  "advancement.totemfactory.immortal.title": "Immortal",
+  "advancement.totemfactory.immortal.descr": "Have a full inventory of Totems of Undying",
+  "advancement.totemfactory.butter.title": "Cover Me in.. Butter?",
+  "advancement.totemfactory.butter.descr": "Equip a full set of Tumbaga armor\n(Yes we know it looks like butter)"
 }
