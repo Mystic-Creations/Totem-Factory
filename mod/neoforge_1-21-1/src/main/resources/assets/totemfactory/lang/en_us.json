@@ -9,7 +9,19 @@
   "item.totemfactory.incomplete_totem_head": "Incomplete Totem of Undying Head",
   "item.totemfactory.incomplete_totem_body": "Incomplete Totem of Undying Body",
   "item.totemfactory.incomplete_totem_body_casing": "Incomplete Totem of Undying Body Casing",
+  "item.totemfactory.incomplete_totem_of_undying": "Incomplete Totem of Undying",
+  "block.totemfactory.tumbaga_casing": "Tumbaga Casing",
+  "block.totemfactory.tumbaga_block": "Block of Tumbaga",
   "item.totemfactory.tumbaga_alloy": "Tumbaga Alloy",
   "item.totemfactory.tumbaga_nugget": "Tumbaga Nugget",
-  "item.totemfactory.tumbaga_sheet": "Tumbaga Sheet"
+  "item.totemfactory.tumbaga_sheet": "Tumbaga Sheet",
+  "item.totemfactory.tumbaga_sword": "Tumbaga Sword",
+  "item.totemfactory.tumbaga_axe": "Tumbaga Axe",
+  "item.totemfactory.tumbaga_pickaxe": "Tumbaga Pickaxe",
+  "item.totemfactory.tumbaga_shovel": "Tumbaga Shovel",
+  "item.totemfactory.tumbaga_hoe": "Tumbaga Hoe",
+  "item.totemfactory.tumbaga_helmet": "Tumbaga Helmet",
+  "item.totemfactory.tumbaga_chestplate": "Tumbaga Chestplate",
+  "item.totemfactory.tumbaga_leggings": "Tumbaga Leggings",
+  "item.totemfactory.tumbaga_boots": "Tumbaga Boots"
 }
