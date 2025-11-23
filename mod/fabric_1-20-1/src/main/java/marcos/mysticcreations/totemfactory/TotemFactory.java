@@ -1,5 +1,6 @@
 package marcos.mysticcreations.totemfactory;
 
+import marcos.mysticcreations.totemfactory.init.TfBlocks;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -14,7 +15,9 @@ public class TotemFactory implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing Create: Totem Factory...");
+        TfBlocks.load();
+        TfItems.load();
 		TfTabs.load();
-		TfItems.load();
+        //HAS TO BE THIS LOADING ORDER!!
 	}
 }

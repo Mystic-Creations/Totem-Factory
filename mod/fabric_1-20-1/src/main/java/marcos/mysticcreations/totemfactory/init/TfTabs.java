@@ -25,9 +25,19 @@ public class TfTabs {
 				.build()
 		);
 		ItemGroupEvents.modifyEntriesEvent(TAB_TOTEM_FACTORY).register(tabData -> {
+            //Resource
+            tabData.accept(TfItems.TUMBAGA_BLOCK);
             tabData.accept(TfItems.TUMBAGA_ALLOY);
             tabData.accept(TfItems.TUMBAGA_NUGGET);
             tabData.accept(TfItems.TUMBAGA_SHEET);
+            //Tools
+            tabData.accept(TfItems.TUMBAGA_SWORD);
+            tabData.accept(TfItems.TUMBAGA_AXE);
+            tabData.accept(TfItems.TUMBAGA_PICKAXE);
+            tabData.accept(TfItems.TUMBAGA_SHOVEL);
+            tabData.accept(TfItems.TUMBAGA_HOE);
+            //Armor
+            //Totem
             tabData.accept(TfItems.INACTIVE_TOTEM);
 			tabData.accept(TfItems.TOTEM_HEAD);
 			tabData.accept(TfItems.TOTEM_BODY);
