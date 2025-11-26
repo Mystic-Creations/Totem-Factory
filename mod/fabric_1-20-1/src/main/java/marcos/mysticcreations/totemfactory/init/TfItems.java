@@ -12,6 +12,7 @@ import marcos.mysticcreations.totemfactory.TotemFactory;
 
 public class TfItems {
     //Tumbaga (Resource)
+    public static Item TUMBAGA_CASING = register("tumbaga_casing", new BlockItem(TfBlocks.TUMBAGA_CASING.get(), new Item.Properties().stacksTo(64)));
     public static Item TUMBAGA_BLOCK = register("tumbaga_block", new BlockItem(TfBlocks.TUMBAGA_BLOCK, new Item.Properties().stacksTo(64)));
     public static Item TUMBAGA_ALLOY = register("tumbaga_alloy", new TumbagaAlloy());
     public static Item TUMBAGA_NUGGET = register("tumbaga_nugget", new TumbagaNugget());

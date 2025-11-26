@@ -26,6 +26,7 @@ public class TfTabs {
 		);
 		ItemGroupEvents.modifyEntriesEvent(TAB_TOTEM_FACTORY).register(tabData -> {
             //Resource
+            tabData.accept(TfItems.TUMBAGA_CASING);
             tabData.accept(TfItems.TUMBAGA_BLOCK);
             tabData.accept(TfItems.TUMBAGA_ALLOY);
             tabData.accept(TfItems.TUMBAGA_NUGGET);
