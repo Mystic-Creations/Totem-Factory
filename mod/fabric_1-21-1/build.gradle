@@ -1,3 +1,5 @@
+import net.fabricmc.loom.task.RemapJarTask
+
 plugins {
     id 'fabric-loom' version '1.11-SNAPSHOT'
 }
@@ -48,7 +50,7 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
-tasks.named('jar', Jar) {
+tasks.named('remapJar', RemapJarTask) {
     destinationDirectory.set(layout.projectDirectory.dir('../../.builtJars'))
     archiveFileName.set("${archivesBaseName}-${version}.jar")
 }
