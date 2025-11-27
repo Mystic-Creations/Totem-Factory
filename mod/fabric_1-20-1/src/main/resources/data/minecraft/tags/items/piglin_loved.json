@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "totemfactory:tumbaga_helmet",
+    "totemfactory:tumbaga_chestplate",
+    "totemfactory:tumbaga_leggings",
+    "totemfactory:tumbaga_boots"
+  ]
+}

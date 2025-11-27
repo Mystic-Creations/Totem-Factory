@@ -23,6 +23,10 @@ public class TfItems {
     public static Item TUMBAGA_PICKAXE = register("tumbaga_pickaxe", new TumbagaPickaxe());
     public static Item TUMBAGA_SHOVEL = register("tumbaga_shovel", new TumbagaShovel());
     public static Item TUMBAGA_HOE = register("tumbaga_hoe", new TumbagaHoe());
+    public static Item TUMBAGA_HELMET = register("tumbaga_helmet", new TumbagaHelmet());
+    public static Item TUMBAGA_CHESTPLATE = register("tumbaga_chestplate", new TumbagaChestplate());
+    public static Item TUMBAGA_LEGGINGS = register("tumbaga_leggings", new TumbagaLeggings());
+    public static Item TUMBAGA_BOOTS = register("tumbaga_boots", new TumbagaBoots());
     //Totem
     public static Item TOTEM_HEAD = register("totem_head", new TotemHead());
     public static Item INCOMPLETE_TOTEM_HEAD = register("incomplete_totem_head", new IncompleteTotemHead());

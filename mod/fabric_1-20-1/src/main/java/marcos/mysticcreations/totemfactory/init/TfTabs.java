@@ -38,6 +38,10 @@ public class TfTabs {
             tabData.accept(TfItems.TUMBAGA_SHOVEL);
             tabData.accept(TfItems.TUMBAGA_HOE);
             //Armor
+            tabData.accept(TfItems.TUMBAGA_HELMET);
+            tabData.accept(TfItems.TUMBAGA_CHESTPLATE);
+            tabData.accept(TfItems.TUMBAGA_LEGGINGS);
+            tabData.accept(TfItems.TUMBAGA_BOOTS);
             //Totem
             tabData.accept(TfItems.INACTIVE_TOTEM);
 			tabData.accept(TfItems.TOTEM_HEAD);
