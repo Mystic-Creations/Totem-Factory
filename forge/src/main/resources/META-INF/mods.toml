@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="totemfactory"
+version="${version}"
+displayName="Create: Totem Factory"
+displayURL="https://modrinth.com/mod/create-totem-factory"
+credits=""
+authors="MarcosJoestar & jargames99\\nMystic Creations Team, BluSpring"
+description="The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic."
+
+[[dependencies.totemfactory]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.totemfactory]]
+modId="create"
+mandatory=true
+versionRange="[6,)"
+ordering="NONE"
+side="BOTH"
+

@@ -1,7 +1,0 @@
-{
-  "required": true,
-  "package": "marcos.mysticcreations.totemfactory.mixin",
-  "mixins": [
-    "MixinPiglinAiLikesTumbaga"
-  ]
-}

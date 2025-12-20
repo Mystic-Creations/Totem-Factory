@@ -13,7 +13,10 @@
 
 # Description
 The industrial revolution has come to Minecraft, and with it, new knowledge and discoveries both in the field of science and magic. This mod adds a multistep complex recipe for the Totem of Undying but also recipes for totems from other mods, allowing you to automate any totem you wish.
-# Creation
+
+<hr>
+
+## Totem Creation
 <div>
     <img src="https://cdn.modrinth.com/data/cached_images/15773eaba5a15c6891d62ef141abd2c8e5d3e32a_0.webp" style="float:left; margin-right:15px; width:50px;">
     <p>
@@ -43,6 +46,11 @@ The industrial revolution has come to Minecraft, and with it, new knowledge and 
 </div>
 
 <p>‎ </p>
+
+<hr>
+
+### Tumbaga Alloy
+-- TODO: Describe it --
 
 <hr>
 

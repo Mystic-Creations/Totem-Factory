@@ -1,0 +1,58 @@
+plugins {
+    id 'dev.architectury.loom' version '1.11-SNAPSHOT' apply false
+    id 'architectury-plugin' version '3.4-SNAPSHOT'
+    id 'com.gradleup.shadow' version '8.3.6' apply false
+}
+
+architectury {
+    minecraft = project.minecraft_version
+}
+
+allprojects {
+    group = rootProject.maven_group
+    version = rootProject.mod_version
+    create_fabric = rootProject.create_fabric
+    create_forge = rootProject.create_forge
+
+    repositories {
+        maven { url = "https://cursemaven.com/" }
+        maven { url = "https://mvn.devos.one/releases" }
+        maven { url = "https://mvn.devos.one/snapshots" }
+        maven { url = "https://maven.jamieswhiteshirt.com/libs-release" }
+        maven { url = "https://maven.createmod.net" }
+        maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven" }
+        maven { url = "https://maven.ithundxr.dev/mirror" }
+    }
+}
+
+subprojects {
+    apply plugin: 'dev.architectury.loom'
+    apply plugin: 'architectury-plugin'
+    apply plugin: 'maven-publish'
+
+    base {
+        // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
+        archivesName = "TotemFactory-${version}_$project.name-$minecraft_version"
+    }
+
+    repositories {
+    }
+
+    loom {
+        silentMojangMappingsLicense()
+    }
+
+    dependencies {
+        minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
+        mappings loom.officialMojangMappings()
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        it.options.release = 17
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "marcos.mysticcreationsteam.totemfactory.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinPiglinAiLikesTumbaga"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
