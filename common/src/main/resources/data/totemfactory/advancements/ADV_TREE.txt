@@ -1,0 +1,15 @@
+Sentient Fireplace (CREATE)
+│
+└── I Can't Believe It's Not Butter! [Task]
+    │
+    ├── Ancient Age [Task]
+    │
+    ├── Engineering Laughs in the Face of Death [Task]
+    │   │
+    │   ├── Totem Factory [Goal]
+    │   │
+    │   └── A Step Away From Immortality [Challenge]
+    │       │
+    │       └── Immortal (#7) [Hidden Adv.] [Challenge]
+    │
+    └── Cover Me in.. Butter? (#8) [Hidden Adv.] [Task]
