@@ -31,18 +31,22 @@ configurations {
 }
 
 dependencies {
+    //Dependencies
     forge "net.minecraftforge:forge:$rootProject.forge_version"
-
     modImplementation "com.simibubi.create:create-1.20.1:$rootProject.create_forge:all"
     modImplementation "com.tterrag.registrate:Registrate:$rootProject.registrate"
 
+    //Mods for testing
+    modRuntimeOnly "mezz.jei:jei-1.20.1-forge:${rootProject.jei_version}"
+
+    //Shit Forge wants so it works
+    include(implementation("io.github.llamalad7:mixinextras-forge:$rootProject.mixinextras_version"))
     modImplementation "net.createmod.ponder:Ponder-Forge-1.20.1:$rootProject.ponder"
     modImplementation "dev.engine-room.flywheel:flywheel-forge-1.20.1:$rootProject.flywheel"
 
+    //Architectury
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
-
-    include(implementation("io.github.llamalad7:mixinextras-forge:$rootProject.mixinextras_version"))
 }
 
 processResources {

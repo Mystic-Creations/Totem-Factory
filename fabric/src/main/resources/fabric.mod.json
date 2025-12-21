@@ -9,12 +9,12 @@
     "jargames99"
   ],
   "contributors": [
-    "Mystic Creations Team",
-    "BluSpring"
+    "Mystic Creations Team (Collaborators)",
+    "BluSpring (Contributor)"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/create-totem-factory",
-    "sources": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/create-totem-factory",
+    "sources": "https://github.com/Mystic-Creations/Totem-Factory"
   },
   "license": "MIT",
   "icon": "icon.png",

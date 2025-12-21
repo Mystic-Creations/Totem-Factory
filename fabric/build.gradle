@@ -23,12 +23,17 @@ configurations {
 }
 
 dependencies {
+    //Dependencies
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
     modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version"
-
     modImplementation "com.tterrag.registrate_fabric:Registrate:$rootProject.registrate_refabricated"
     modImplementation "com.simibubi.create:create-fabric:$rootProject.create_fabric"
 
+    //Mods for testing
+    modRuntimeOnly "com.terraformersmc:modmenu:${rootProject.modmenu_version}"
+    modRuntimeOnly "mezz.jei:jei-1.20.1-fabric:${rootProject.jei_version}"
+
+    //Architectury
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
 }
