@@ -8,7 +8,7 @@
     },
     "description": {
       "translate": "advancement.totemfactory.tumbaga_alloy.descr",
-      "color": "#f8eea5"
+      "color": "#d1a75d"
     },
     "frame": "task",
     "announce_to_chat": false
@@ -58,6 +58,6 @@
       "totemfactory:totem/totem_of_undying",
       "totemfactory:totem/totem_of_undying_deploy"
     ],
-    "experience": 12
+    "experience": 4
   }
 }
