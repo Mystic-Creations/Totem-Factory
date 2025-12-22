@@ -4,7 +4,7 @@ import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.foundation.data.BuilderTransformers;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import dev.architectury.injectables.annotations.ExpectPlatform;
-import marcos.mysticcreationsteam.totemfactory.TfSpriteShifts;
+import marcos.mysticcreationsteam.totemfactory.createResources.TfSpriteShifts;
 import marcos.mysticcreationsteam.totemfactory.blocks.TumbagaBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;

@@ -6,7 +6,8 @@
   "client": [
   ],
   "mixins": [
-    "MixinPiglinAiLikesTumbaga"
+    "MixinPiglinAiLikesTumbaga",
+    "TumbagaCasing"
   ],
   "injectors": {
     "defaultRequire": 1
