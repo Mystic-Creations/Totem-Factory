@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(ManualApplicationRecipe.class)
 public class TumbagaCasingAdv {
-    @Inject(method = "awardAdvancements", at = @At("HEAD")) //Tested with TAIL and HEAD, both didn't work
+    @Inject(method = "awardAdvancements", at = @At("HEAD"))
     private static void award(Player player, BlockState placed, CallbackInfo ci) {
         if (!(player instanceof ServerPlayer serverPlayer)) return;
 
