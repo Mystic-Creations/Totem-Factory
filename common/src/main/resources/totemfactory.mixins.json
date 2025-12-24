@@ -7,7 +7,7 @@
   ],
   "mixins": [
     "MixinPiglinAiLikesTumbaga",
-    "TumbagaCasing"
+    "TumbagaCasingAdv"
   ],
   "injectors": {
     "defaultRequire": 1
